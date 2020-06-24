@@ -2,26 +2,26 @@
 
 // FIRST METHOD WITH "FOR"
 
-var surname = ['Rossi', 'Bianco', 'Esposito', 'Russo', 'Zaccaria'];
+// var surname = ['Rossi', 'Bianco', 'Esposito', 'Russo', 'Zaccaria'];
 
-console.log(surname);
+// console.log(surname);
 
-var userSurname = prompt("INSERISCI IL TUO COGNOME");
+// var userSurname = prompt("INSERISCI IL TUO COGNOME");
 
-var user = userSurname.toUpperCase();
+// var user = userSurname.toUpperCase();
 
-surname.push(user);
+// surname.push(user);
 
-surname = surname.sort();
+// surname = surname.sort();
 
-console.log(surname);
+// console.log(surname);
 
-for (var i = 0; i < surname.length; i++) { 
+// for (var i = 0; i < surname.length; i++) { 
     
-    if (surname[i] == user ) {
-        console.log(i + 1);
-    } 
-} 
+//     if (surname[i] == user ) {
+//         console.log(i + 1);
+//     } 
+// } 
 
 // SECOND METHOD WITHOUT "FOR"
 
