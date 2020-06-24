@@ -42,3 +42,4 @@ for (var i = 0; i < surname.length; i++) {
 // var userPosition = surname.indexOf(user);
 
 // console.log(userPosition + 1);
+
